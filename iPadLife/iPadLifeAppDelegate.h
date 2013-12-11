@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ControlsVC.h"
+#import "LifeVC.h"
 
 @interface iPadLifeAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) UISplitViewController *splitVC;
 
 @end

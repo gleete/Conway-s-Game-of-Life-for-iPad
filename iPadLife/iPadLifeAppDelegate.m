@@ -9,11 +9,28 @@
 #import "iPadLifeAppDelegate.h"
 
 @implementation iPadLifeAppDelegate
+@synthesize splitVC;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    // Hide the status bar, we're going full screen
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    
+    // Setup UI
+    // Create left VC (master VC)
+    ControlsVC* controlsVC = [[ControlsVC alloc] initWithNibName:nil 	bundle:nil];
+    
+    // Create right VC (detail VC)
+    LifeVC* lifeVC = [[LifeVC alloc] initWithNibName:nil bundle:nil];
+    controlsVC.lifeVC = lifeVC;
+	
+    // Create Split VC
+    self.splitVC = [[UISplitViewController alloc] init];
+    self.splitVC.viewControllers = [NSArray 		arrayWithObjects:controlsVC,lifeVC, nil];
+	self.window.rootViewController = splitVC;
+	
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

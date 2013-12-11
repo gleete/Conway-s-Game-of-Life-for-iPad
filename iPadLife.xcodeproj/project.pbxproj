@@ -19,6 +19,15 @@
 		4C4525A1184E281100BE6DB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C452589184E281100BE6DB7 /* UIKit.framework */; };
 		4C4525A9184E281100BE6DB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C4525A7184E281100BE6DB7 /* InfoPlist.strings */; };
 		4C4525AB184E281100BE6DB7 /* iPadLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4525AA184E281100BE6DB7 /* iPadLifeTests.m */; };
+		4C4525BD184E288400BE6DB7 /* LifeWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4525B6184E288400BE6DB7 /* LifeWorld.m */; };
+		4C4525BE184E288400BE6DB7 /* LifeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4525B7184E288400BE6DB7 /* LifeView.m */; };
+		4C4525BF184E288400BE6DB7 /* smiley_flipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C4525BA184E288400BE6DB7 /* smiley_flipped.png */; };
+		4C4525C0184E288400BE6DB7 /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C4525BB184E288400BE6DB7 /* smiley.png */; };
+		4C4525C1184E288400BE6DB7 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C4525BC184E288400BE6DB7 /* Icon-72.png */; };
+		4C4525C5184E293A00BE6DB7 /* LifeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4525C3184E293A00BE6DB7 /* LifeVC.m */; };
+		4C4525C6184E293A00BE6DB7 /* LifeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4525C4184E293A00BE6DB7 /* LifeVC.xib */; };
+		4C4525CA184E2EFC00BE6DB7 /* ControlsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4525C8184E2EFC00BE6DB7 /* ControlsVC.m */; };
+		4C4525CB184E2EFC00BE6DB7 /* ControlsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4525C9184E2EFC00BE6DB7 /* ControlsVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,19 @@
 		4C4525A6184E281100BE6DB7 /* iPadLifeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPadLifeTests-Info.plist"; sourceTree = "<group>"; };
 		4C4525A8184E281100BE6DB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C4525AA184E281100BE6DB7 /* iPadLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPadLifeTests.m; sourceTree = "<group>"; };
+		4C4525B6184E288400BE6DB7 /* LifeWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeWorld.m; sourceTree = "<group>"; };
+		4C4525B7184E288400BE6DB7 /* LifeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeView.m; sourceTree = "<group>"; };
+		4C4525B8184E288400BE6DB7 /* LifeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeView.h; sourceTree = "<group>"; };
+		4C4525B9184E288400BE6DB7 /* LifeWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeWorld.h; sourceTree = "<group>"; };
+		4C4525BA184E288400BE6DB7 /* smiley_flipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley_flipped.png; sourceTree = "<group>"; };
+		4C4525BB184E288400BE6DB7 /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley.png; sourceTree = "<group>"; };
+		4C4525BC184E288400BE6DB7 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		4C4525C2184E293A00BE6DB7 /* LifeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeVC.h; sourceTree = "<group>"; };
+		4C4525C3184E293A00BE6DB7 /* LifeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeVC.m; sourceTree = "<group>"; };
+		4C4525C4184E293A00BE6DB7 /* LifeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LifeVC.xib; sourceTree = "<group>"; };
+		4C4525C7184E2EFC00BE6DB7 /* ControlsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlsVC.h; sourceTree = "<group>"; };
+		4C4525C8184E2EFC00BE6DB7 /* ControlsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlsVC.m; sourceTree = "<group>"; };
+		4C4525C9184E2EFC00BE6DB7 /* ControlsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlsVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +131,15 @@
 			children = (
 				4C452594184E281100BE6DB7 /* iPadLifeAppDelegate.h */,
 				4C452595184E281100BE6DB7 /* iPadLifeAppDelegate.m */,
+				4C4525C2184E293A00BE6DB7 /* LifeVC.h */,
+				4C4525C3184E293A00BE6DB7 /* LifeVC.m */,
+				4C4525C4184E293A00BE6DB7 /* LifeVC.xib */,
+				4C4525B5184E286900BE6DB7 /* startFiles */,
 				4C452597184E281100BE6DB7 /* Images.xcassets */,
 				4C45258C184E281100BE6DB7 /* Supporting Files */,
+				4C4525C7184E2EFC00BE6DB7 /* ControlsVC.h */,
+				4C4525C8184E2EFC00BE6DB7 /* ControlsVC.m */,
+				4C4525C9184E2EFC00BE6DB7 /* ControlsVC.xib */,
 			);
 			path = iPadLife;
 			sourceTree = "<group>";
@@ -142,6 +171,20 @@
 				4C4525A7184E281100BE6DB7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C4525B5184E286900BE6DB7 /* startFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4C4525B6184E288400BE6DB7 /* LifeWorld.m */,
+				4C4525B7184E288400BE6DB7 /* LifeView.m */,
+				4C4525B8184E288400BE6DB7 /* LifeView.h */,
+				4C4525B9184E288400BE6DB7 /* LifeWorld.h */,
+				4C4525BA184E288400BE6DB7 /* smiley_flipped.png */,
+				4C4525BB184E288400BE6DB7 /* smiley.png */,
+				4C4525BC184E288400BE6DB7 /* Icon-72.png */,
+			);
+			name = startFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +263,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4525C6184E293A00BE6DB7 /* LifeVC.xib in Resources */,
+				4C4525C0184E288400BE6DB7 /* smiley.png in Resources */,
+				4C4525C1184E288400BE6DB7 /* Icon-72.png in Resources */,
+				4C4525CB184E2EFC00BE6DB7 /* ControlsVC.xib in Resources */,
 				4C452590184E281100BE6DB7 /* InfoPlist.strings in Resources */,
 				4C452598184E281100BE6DB7 /* Images.xcassets in Resources */,
+				4C4525BF184E288400BE6DB7 /* smiley_flipped.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4525BE184E288400BE6DB7 /* LifeView.m in Sources */,
 				4C452596184E281100BE6DB7 /* iPadLifeAppDelegate.m in Sources */,
+				4C4525BD184E288400BE6DB7 /* LifeWorld.m in Sources */,
+				4C4525C5184E293A00BE6DB7 /* LifeVC.m in Sources */,
+				4C4525CA184E2EFC00BE6DB7 /* ControlsVC.m in Sources */,
 				4C452592184E281100BE6DB7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
